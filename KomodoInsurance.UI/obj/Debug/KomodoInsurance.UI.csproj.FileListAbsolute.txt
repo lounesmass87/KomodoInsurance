@@ -1,0 +1,7 @@
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.UI\bin\Debug\KomodoInsurance.UI.exe.config
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.UI\bin\Debug\KomodoInsurance.UI.exe
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.UI\bin\Debug\KomodoInsurance.UI.pdb
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.UI\obj\Debug\KomodoInsurance.UI.csproj.AssemblyReference.cache
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.UI\obj\Debug\KomodoInsurance.UI.csproj.CoreCompileInputs.cache
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.UI\obj\Debug\KomodoInsurance.UI.exe
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.UI\obj\Debug\KomodoInsurance.UI.pdb
