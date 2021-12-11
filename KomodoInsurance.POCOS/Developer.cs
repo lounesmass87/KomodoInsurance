@@ -8,9 +8,6 @@ namespace KomodoInsurance.POCOS
 {
     public class Developer
     {
-        public Developer()
-        {
-        }
 
         public Developer(string name, int idNumber, bool hasPluralsight)
         {

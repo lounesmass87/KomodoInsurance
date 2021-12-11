@@ -48,7 +48,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Program.UI" />
+    <Compile Include="ProgramUI.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KomodoInsurance.POCOS\KomodoInsurance.POCOS.csproj">
+      <Project>{ec40798d-9de1-4b0e-ad60-cd6af7bb0e80}</Project>
+      <Name>KomodoInsurance.POCOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KomodoInsurance.Repositorie\KomodoInsurance.Repositorie.csproj">
+      <Project>{1e123811-fdc4-4485-bf56-2fe6d76c798f}</Project>
+      <Name>KomodoInsurance.Repositorie</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

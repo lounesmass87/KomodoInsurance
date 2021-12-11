@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KomodoInsurance.POCOS;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,31 +9,60 @@ namespace KomodoInsurance.Repositorie
 {
      public class DevTeamRepo
     {
-        private readonly List<DevTeam> _DevTeam;
+        private DevTeam _DevTeam = new DevTeam();
         private int count;
 
-        public DevTeamRepo()
-        {
-            _DevTeam = new List<DevTeam>();
-        }
-
         //C
-        public bool CreateDevteam(DevTeam Team)
+        public void CreateDevteam(Developer developer)
         {
-             Team = new DevTeamRepo();
+            _DevTeam.TeamMember.Add(developer);
 
         }
-        public List<DevTeam> GetDevTeam()
+        //R
+        public List<Developer> GetDevTeam()
         {
-            return _Developers;
+            return _DevTeam.TeamMember;
         }
-        public void AddDeveloper(DevTeam Teamr)
+        //U
+        public bool UpdateDevTeam(int teamID, DevTeam newDevTeam)
         {
-
+            DevTeam oldDevTeam = GetDevTeamByteamID(teamID);
+            if (oldDevTeam != null)
+            {
+                oldDevTeam.TeamID = newDevTeam.TeamID;
+                oldDevTeam.TeamMember = newDevTeam.TeamMember;
+                oldDevTeam.TeamName = newDevTeam.TeamName;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
-        public void RemoveDevlopers(DevTeamr Team)
-        {
 
-  
+        private DevTeam GetDevTeamByteamID(int teamID)
+        {
+            throw new NotImplementedException();
+        }
+
+        //D
+        public bool RemoveDevTeamBytemID(int teamID) 
+        {
+            DevTeam devTeam = GetDevTeamByTeamID(teamID);
+            if (devTeam == null)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        private DevTeam GetDevTeamByTeamID(int teamID)
+        {
+            throw new NotImplementedException();
+        }
+        //Helper methode
     }
 }

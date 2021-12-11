@@ -24,15 +24,49 @@ namespace KomodoInsurance.Repositorie
         }
 
         //update
-        public void AddDeveloper(Developer devloper) 
+        public bool UpdateDeveloper(int idNumber, Developer newDeveloper) 
         {
+            Developer oldDeveloper = GetDeveloperByIdNumber(idNumber);
+            if(oldDeveloper != null)
+            {
+                oldDeveloper.Name = newDeveloper.Name;
+                oldDeveloper.IdNumber = newDeveloper.IdNumber;
+                oldDeveloper.HasPluralsight = newDeveloper.HasPluralsight;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public Developer GetDeveloperByIdNumber(int idNumber)
+        {
+            foreach (Developer developers in _Developers)
+            {
+                if (idNumber == developers.IdNumber)
+                {
+                    return developers;
+                }
+            }
+            return null;
 
         }
 
         //Delete
-        public void RemoveDevlopers(Developer developer) 
+        public bool RemoveDevlopers(int idNumber)
         {
-
+            Developer developer = GetDeveloperByIdNumber(idNumber);
+            if (developer == null)
+            {
+                return false;
+            }
+            else
+            {
+                _Developers.Remove(developer);
+                return true;
+            }
         }
+        //helper methode
     }
 }

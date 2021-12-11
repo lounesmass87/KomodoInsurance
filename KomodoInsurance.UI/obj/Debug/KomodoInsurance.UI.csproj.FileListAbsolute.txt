@@ -5,3 +5,8 @@ C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.UI\obj\Debug\Komo
 C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.UI\obj\Debug\KomodoInsurance.UI.csproj.CoreCompileInputs.cache
 C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.UI\obj\Debug\KomodoInsurance.UI.exe
 C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.UI\obj\Debug\KomodoInsurance.UI.pdb
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.UI\bin\Debug\KomodoInsurance.Repositorie.dll
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.UI\bin\Debug\KomodoInsurance.POCOS.dll
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.UI\bin\Debug\KomodoInsurance.Repositorie.pdb
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.UI\bin\Debug\KomodoInsurance.POCOS.pdb
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.UI\obj\Debug\KomodoInsurance.UI.csproj.CopyComplete

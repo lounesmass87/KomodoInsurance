@@ -1,0 +1,9 @@
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.Repositorie\bin\Debug\KomodoInsurance.Repositorie.dll
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.Repositorie\bin\Debug\KomodoInsurance.Repositorie.pdb
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.Repositorie\bin\Debug\KomodoInsurance.POCOS.dll
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.Repositorie\bin\Debug\KomodoInsurance.POCOS.pdb
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.Repositorie\obj\Debug\KomodoInsurance.Repositorie.csproj.AssemblyReference.cache
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.Repositorie\obj\Debug\KomodoInsurance.Repositorie.csproj.CoreCompileInputs.cache
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.Repositorie\obj\Debug\KomodoInsurance.Repositorie.csproj.CopyComplete
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.Repositorie\obj\Debug\KomodoInsurance.Repositorie.dll
+C:\Users\lmass\source\repos\KomodoInsurance.UI\KomodoInsurance.Repositorie\obj\Debug\KomodoInsurance.Repositorie.pdb
